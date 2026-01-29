@@ -6,7 +6,7 @@ export default function apiList() {
     return(
         <SafeAreaView>
 
-        <Header image={require('@/assets/images/Arara.webp')}/>
+        <Header image={require('@/assets/images/Papa_Gaio.jpg')}/>
         
         </SafeAreaView>
 

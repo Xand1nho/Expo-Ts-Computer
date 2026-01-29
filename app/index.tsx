@@ -17,7 +17,7 @@ export default function HomePage() {
 
   return (
     <SafeAreaView style={s.wrap}>
-      <Header image={require('@/assets/images/Banner.webp')}/>
+      <Header image={require("@/assets/images/Banner.webp")} />
       <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
         <View style={s.body}>
           <Text style={s.title}>Tech Now Lógia</Text>
@@ -26,10 +26,13 @@ export default function HomePage() {
         <View>
           <Image
             style={s.ImageBackground}
-            source={require("../assets/images/Xandao.webp")}
+            source={require("../assets/images/👍.png")}
           />
         </View>
         <View style={s.body2}>
+          <TouchableOpacity style={s.btn} onPress={visit}>
+            <Text style={s.btnText}>Entrar</Text>
+          </TouchableOpacity>
           <TouchableOpacity style={s.btn} onPress={visit}>
             <Text style={s.btnText}>Entrar</Text>
           </TouchableOpacity>
@@ -64,7 +67,7 @@ const s = StyleSheet.create({
     fontSize: 30,
     padding: 20,
     paddingBottom: 20,
-    border: "1px solid #ffffff",
+
     borderRadius: 9,
     marginTop: 20,
     marginLeft: 50,
@@ -83,7 +86,6 @@ const s = StyleSheet.create({
     shadowOffset: {
       width: 2,
       height: 2,
-      
     },
     shadowOpacity: 0.95,
     shadowRadius: 3.84,
