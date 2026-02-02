@@ -1,6 +1,6 @@
 import { Image } from "expo-image";
 import { StyleSheet, Text, View } from "react-native";
-import { enableScreens} from "react-native-screens";
+
 
 export const Item = ({
   name,
@@ -53,7 +53,6 @@ const s = StyleSheet.create({
     borderRadius: 40,
     width: 70,
     height: 70,
-    
   },
   txt: {
     display: "flex",

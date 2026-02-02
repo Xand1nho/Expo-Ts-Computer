@@ -1,5 +1,7 @@
 import { Image, ImageSourcePropType, StyleSheet, View } from "react-native";
 
+
+// Esta parte é onde fica o banner do site, neste caso é o "Computer parts & components"
 export const Header = ({ image }: { image: ImageSourcePropType }) => {
   return (
     <View style={s.wrap}>

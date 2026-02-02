@@ -1,30 +1,31 @@
-import dados from "@/assets/constants/mock";
+import dados from "@/assets/constants/mock2";
 import { Header } from "@/components/header";
 import { Item } from "@/components/item";
 import { router } from "expo-router";
 import React from "react";
 import {
-  FlatList,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
+    FlatList,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function List() {
-  const voltar = () => {
-    router.push("/");
-  };
+export default function List2() {
 
-  return (
+    const List2 = () => {
+       router.push("/")
+    };
+
+     return (
     <>
       <View>
-        <Header image={require("@/assets/images/2banner.png")} />
+        <Header image={require("@/assets/images/Rog.gif")} />
 
         <View>
-          <TouchableOpacity onPress={voltar}>
-            <Text style={s.backBtn}>◀️</Text>
+          <TouchableOpacity onPress={List2}>
+            <Text style={s.backBtn2}>◀️</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -51,13 +52,9 @@ const s = StyleSheet.create({
   wrapList: {
     flex: 1,
   },
-  backBtn: {
+  backBtn2: {
     fontSize: 40,
     position: "absolute",
     top: -190,
   },
-  body:{
-    display: "flex",
-    alignItems: 'center',
-  }
 });
