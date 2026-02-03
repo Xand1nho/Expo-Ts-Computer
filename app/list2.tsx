@@ -51,10 +51,22 @@ export default function List2() {
 const s = StyleSheet.create({
   wrapList: {
     flex: 1,
+    flexWrap: 'wrap',
+    overflow: 'hidden',
+    flexDirection: 'column',
+    marginBottom: 10,
+    marginTop: 20,
   },
   backBtn2: {
     fontSize: 40,
     position: "absolute",
     top: -190,
+    color: '#ffffff',
+    transitionDuration: '0.3s',
+    
   },
+  body:{
+    display: "flex",
+    alignItems: 'center',
+  }
 });

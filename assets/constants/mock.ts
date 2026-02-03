@@ -30,7 +30,7 @@ const data = [
     "nome": "Placa de Vídeo",
     "marca": "NVIDIA",
     "modelo": "GeForce RTX 4090 24GB GDDR6X",
-    "descricao": "A GPU mais poderosa do mundo, capaz de rodar qualquer jogo em 4K no ultra com Ray Tracing.",
+    "descricao": "A GPU mais poderosa do mundo, capaz de rodar qualquer jogo em 4K.",
     "imagem": require("@/assets/images/Placa_De_Vídeo.png"),
   },
   {
@@ -38,7 +38,7 @@ const data = [
     "nome": "Armazenamento NVMe",
     "marca": "Samsung",
     "modelo": "990 Pro 4TB PCIe 4.0",
-    "descricao": "SSD com velocidades de leitura de até 7.450 MB/s, o padrão ouro em confiabilidade.",
+    "descricao": "SSD com velocidades de leitura de até 7.450 MB/s.",
     "imagem": require("@/assets/images/SSD.png"),
   },
   {
@@ -70,7 +70,7 @@ const data = [
     "nome": "Ventoinhas de Gabinete",
     "marca": "Lian Li",
     "modelo": "Uni Fan SL-Infinity (Kit 3un)",
-    "descricao": "Fans modulares com espelhos infinitos e iluminação RGB de alta densidade.",
+    "descricao": "Fans modulares com espelhos infinitos e iluminação RGB.",
     "imagem": require("@/assets/images/Fan.png"),
   },
   {
@@ -78,7 +78,7 @@ const data = [
     "nome": "Pasta Térmica",
     "marca": "Thermal Grizzly",
     "modelo": "Kryonaut Extreme",
-    "descricao": "Composto térmico de elite para overclocking e máxima transferência de calor.",
+    "descricao": "Composto térmico de elite para overclocking.",
     "imagem": require("@/assets/images/Pasta_Térmica.png"),
   }
 ];

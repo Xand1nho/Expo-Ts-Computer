@@ -4,7 +4,7 @@ const data2 = [
     "nome": "Disco Rígido (HDD)",
     "marca": "Seagate",
     "modelo": "IronWolf Pro 8TB 7200RPM",
-    "descricao": "Armazenamento massivo de alta durabilidade, ideal para backups, servidores NAS e bibliotecas de jogos extensas.",
+    "descricao": "Armazenamento massivo de alta durabilidade,.",
     "imagem": require("@/assets/Images_mock2/HDD.png"),
   },
   {
@@ -12,7 +12,7 @@ const data2 = [
     "nome": "SSD SATA",
     "marca": "Kingston",
     "modelo": "KC600 2TB 2.5 Polegadas",
-    "descricao": "Armazenamento sólido no formato tradicional, perfeito para reviver PCs antigos ou como drive secundário rápido.",
+    "descricao": "Armazenamento sólido no formato tradicional.",
     "imagem": require("@/assets/Images_mock2/SSD_Sata.png"),
   },
   {
@@ -20,7 +20,7 @@ const data2 = [
     "nome": "Air Cooler",
     "marca": "DeepCool",
     "modelo": "AK620 Digital",
-    "descricao": "Refrigeração a ar de alto desempenho com display digital no topo para monitoramento de temperatura e uso da CPU.",
+    "descricao": "Refrigeração a ar de alto desempenho com display digital.",
     "imagem": require("@/assets/Images_mock2/Air_Cooler.png"),
   },
   {
@@ -28,7 +28,7 @@ const data2 = [
     "nome": "Placa de Captura",
     "marca": "Elgato",
     "modelo": "Game Capture 4K60 Pro MK.2",
-    "descricao": "Placa PCIe interna para criadores de conteúdo, permitindo gravação e streaming em 4K60 HDR10 sem latência.",
+    "descricao": "Placa PCIe interna para criadores de conteúdo.",
     "imagem": require("@/assets/Images_mock2/Placa_De_Captura.png"),
   },
   {
@@ -36,7 +36,7 @@ const data2 = [
     "nome": "Cabos Sleeved RGB",
     "marca": "Lian Li",
     "modelo": "Strimer Plus V2 24-Pin",
-    "descricao": "Cabos de extensão de energia com iluminação LED endereçável para um visual cyberpunk incrível no gabinete.",
+    "descricao": "Cabos de extensão de energia com iluminação LED.",
     "imagem": require("@/assets/Images_mock2/Cabo_RGB.png"),
   },
   {
@@ -44,7 +44,7 @@ const data2 = [
     "nome": "Placa de Som",
     "marca": "Creative",
     "modelo": "Sound Blaster AE-9",
-    "descricao": "Solução de áudio dedicada com DAC de alta resolução e amplificador de fones para audiófilos exigentes.",
+    "descricao": "Solução de áudio dedicada com DAC de alta resolução e amplificador de fones para audiófilos.",
     "imagem": require("@/assets/Images_mock2/Placa_De_Som.png"),
   },
   {
@@ -52,7 +52,7 @@ const data2 = [
     "nome": "Suporte Vertical GPU",
     "marca": "Cooler Master",
     "modelo": "Universal Vertical Graphics Card Holder Kit V3",
-    "descricao": "Kit completo com cabo Riser PCIe 4.0 para instalar a placa de vídeo na vertical e exibi-la como peça central.",
+    "descricao": "Kit completo com cabo Riser PCIe 4.0 para instalar a placa de vídeo na vertical.",
     "imagem": require("@/assets/Images_mock2/Suporte_GPU.png"),
   },
   {
@@ -60,7 +60,7 @@ const data2 = [
     "nome": "Placa de Rede Wi-Fi",
     "marca": "TP-Link",
     "modelo": "Archer TXE75E Wi-Fi 6E",
-    "descricao": "Adiciona conectividade Wi-Fi 6E tri-band e Bluetooth 5.3 a computadores que não possuem nativamente.",
+    "descricao": "Adiciona conectividade Wi-Fi 6E tri-band e Bluetooth 5.3.",
     "imagem": require("@/assets/Images_mock2/Placa_Wifi.png"),
   },
   {
@@ -68,7 +68,7 @@ const data2 = [
     "nome": "Controladora ARGB",
     "marca": "Razer",
     "modelo": "Chroma Addressable RGB Controller",
-    "descricao": "Hub central para sincronizar ventoinhas, fitas LED e acessórios de qualquer marca com o software Razer Synapse.",
+    "descricao": "Hub central para sincronizar ventoinhas, fitas LED e acessórios.",
     "imagem": require("@/assets/Images_mock2/Controladora.png"),
   },
   {
@@ -76,7 +76,7 @@ const data2 = [
     "nome": "Nobreak",
     "marca": "APC",
     "modelo": "Back-UPS Pro 1500VA",
-    "descricao": "Proteção de energia essencial com bateria de backup e estabilização de voltagem para salvar seu trabalho em quedas de luz.",
+    "descricao": "Proteção de energia essencial com bateria de backup.",
     "imagem": require("@/assets/Images_mock2/Nobreak.png"),
   }
 ];

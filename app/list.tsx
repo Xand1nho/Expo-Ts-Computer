@@ -19,8 +19,8 @@ export default function List() {
 
   return (
     <>
-      <View>
-        <Header image={require("@/assets/images/2banner.png")} />
+      <View style={s.Header}>
+        <Header  image={require("@/assets/images/2banner.png")} />
 
         <View>
           <TouchableOpacity onPress={voltar}>
@@ -48,16 +48,43 @@ export default function List() {
 }
 
 const s = StyleSheet.create({
+  
   wrapList: {
-    flex: 1,
+  flex: 1,
+  textOverflow: 'hidden',
+  marginBottom: 10,
+  marginTop: 20,
+  flexWrap: 'wrap',
+  overflow: 'hidden',
+  flexDirection: 'column',
+  
+  justifyContent: 'center',
   },
   backBtn: {
     fontSize: 40,
     position: "absolute",
     top: -190,
+    transitionDuration: '0.3s',
+    color: '#ffffff',
+
   },
   body:{
     display: "flex",
     alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 20,
+    
+  },
+  Header:{
+    flexWrap: 'nowrap',
+    display: 'flex', 
+    overflow: 'hidden',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignContent: 'center',
+    
+    
+
   }
+
 });

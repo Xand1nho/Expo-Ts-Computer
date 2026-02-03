@@ -57,12 +57,15 @@ const s = StyleSheet.create({
   txt: {
     display: "flex",
     textAlign: "center",
+    alignItems: "center",
+    justifyContent: "center",
     flexDirection: "row",
     color: '#006eff',
-    fontSize: 14,
+    fontSize: 15,
     fontWeight: 'bold',
     textShadowColor: 'rgba()',
     textDecorationLine: 'underline',
+    overflow: "hidden",
   },
   txt1: {
     display: "flex",
@@ -72,6 +75,7 @@ const s = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     textDecorationLine: 'underline',
+    overflow: "hidden",
   
   },
   txt2: {
@@ -82,12 +86,15 @@ const s = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     textDecorationLine: 'underline',
+    overflow: "hidden",
+
   
   },
   txt3: {
     padding: 20,
     display: "flex",
     textAlign: "center",
+    overflow: "hidden",
     flexDirection: "row",
     color: '#eeff00',
     fontSize: 14,
